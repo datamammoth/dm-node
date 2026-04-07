@@ -1,6 +1,6 @@
 # DataMammoth Node.js / TypeScript SDK
 
-Official Node.js and TypeScript client for the [DataMammoth API v2](https://data-mammoth.com/api-docs).
+Official Node.js and TypeScript client for the [DataMammoth API v2](https://data-mammoth.com/api-docs/reference).
 
 > **Status**: Under development. Not yet published to npm.
 
