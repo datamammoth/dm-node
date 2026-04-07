@@ -1,0 +1,44 @@
+{
+  "name": "@datamammoth/sdk",
+  "version": "0.1.0",
+  "description": "Official Node.js and TypeScript client for the DataMammoth API v2",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "datamammoth",
+    "api",
+    "sdk",
+    "typescript",
+    "vps",
+    "hosting",
+    "cloud"
+  ],
+  "author": "DataMammoth <dev@data-mammoth.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datamammoth/dm-node.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4",
+    "vitest": "^2.0"
+  }
+}
